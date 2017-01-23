@@ -1,6 +1,47 @@
+body {
+  width: 900px;
+  margin: 0 auto;
+}
+
 .content {
   height: 80px;
   width: 80px;
   border-radius: 100%;
   background-color: grey;
+  display: inline-block;
+  margin: 15px;
+  position: relative;
 }
+
+.content img {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 20%;
+  left: 18%;
+}
+
+.content p {
+  position: relative;
+  margin-top: 90px;
+  text-align: center;
+}
+
+.top p img {
+  height: 30px;
+  width: 30px;
+  margin-top: -20px;
+}
+
+.contact {
+  display: inline-block;
+  text-align: right;
+  float: right;
+}
+
+.contact img {
+  margin-top: -10px;
+  height: 20px;
+}
+
+/* header top end */
