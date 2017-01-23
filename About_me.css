@@ -1,6 +1,10 @@
 body {
-  width: 900px;
-  margin: 0 auto;
+  margin: 0;
+}
+
+.top {
+  margin-left: 315px;
+  margin-right: 315px;
 }
 
 .content {
@@ -27,16 +31,11 @@ body {
   text-align: center;
 }
 
-.top p img {
-  height: 30px;
-  width: 30px;
-  margin-top: -20px;
-}
-
 .contact {
   display: inline-block;
   text-align: right;
   float: right;
+  margin-top: -10px;
 }
 
 .contact img {
@@ -45,3 +44,36 @@ body {
 }
 
 /* header top end */
+
+.bottom {
+  background-image: url("https://developingourwings.files.wordpress.com/2015/07/jumping-off-a-cliff.jpg");
+  background-size: cover;
+  height: 480px;
+  text-align: center;
+}
+
+#jump h1 {
+  padding: 220px 0;
+  color: white;
+}
+
+/* header bottom end */
+
+.profilepic img {
+  height: 200px;
+  width: 200px;
+  display: inline-flex;
+}
+
+/* who am i end */
+
+.travelposter {
+  background-image: url("Photos/Travel/1531963_10153078844559598_6158254381549150250_o.jpg");
+  background-size: cover;
+  height: 480px;
+  text-align: center;
+}
+
+video {
+  width: 100%
+}
